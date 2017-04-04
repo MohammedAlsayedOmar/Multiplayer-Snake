@@ -3,9 +3,9 @@ A Snake game made in assembly on 8086 using serial port to communicate and send 
 
 ### Prerequisites
 
-*[Virtual Serial Port](https://www.eltima.com/products/vspdxp/)
-*MASM/TASM
-*[DOS Box](https://www.dosbox.com/)
+* [Virtual Serial Port](https://www.eltima.com/products/vspdxp/)
+* MASM/TASM
+* [DOS Box](https://www.dosbox.com/)
 
 
 ### Installing
@@ -21,8 +21,5 @@ __Steps Not Added Yet__
 
 * **[Mohammed Mahmoud](https://github.com/Musgi)**, **[Ahmad Mostafa](https://github.com/ahmad-mostafa1000)**, **Mostafa El-Mohandes**, **Islam Khaled** and **[Mohammed Omar](https://github.com/MohammedAlsayedOmar)**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
