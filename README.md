@@ -10,14 +10,14 @@ A Snake game made in assembly on 8086 using serial port to communicate and send 
 
 ### Installing
 
-__Steps Not Added Yet__
+_Steps Not Added Yet_
 
 
 ## Running the tests
 
-__Steps Not Added Yet__
+_Steps Not Added Yet_
 
-## Authors
+## Developers
 
 * **[Mohammed Mahmoud](https://github.com/Musgi)**, **[Ahmad Mostafa](https://github.com/ahmad-mostafa1000)**, **Mostafa El-Mohandes**, **Islam Khaled** and **[Mohammed Omar](https://github.com/MohammedAlsayedOmar)**
 
