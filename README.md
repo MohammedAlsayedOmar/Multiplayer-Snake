@@ -56,8 +56,8 @@ Inside DOSBox, enter the following commands
 masm main.asm;
 link main.asm;
 ```
-![COM](/Screenshots/3_masm.jpg)
-![COM](/Screenshots/4_link.jpg)
+![MASM](/Screenshots/3_masm.jpg)
+![LINK](/Screenshots/4_link.jpg)
 
 Well done. Everything is now setup to start.
 
@@ -80,15 +80,15 @@ Serial1: Opening com2
 ```
 
 Perfect. Now type your name. The main screen won't appear unless both users press the **Enter** key after they enter their name.
-![COM](/Screenshots/6_run.jpg)
+![Run](/Screenshots/6_run.jpg)
 
 Hopefully now you can see this:
-![COM](/Screenshots/7_main_menu.jpg)
+![Main Menu](/Screenshots/7_main_menu.jpg)
 
 As it states, each function key is associated with something. Let's try them all.
 
 Press "F1" on one of the screens and hopefully you see this message:
-![COM](/Screenshots/8_chat_inv.jpg)
+![Chat Invitation](/Screenshots/8_chat_inv.jpg)
 On the host screen
 ```
 You sent a CHAT invitation
@@ -99,13 +99,13 @@ On the other screen
 ```
 
 After accepting, you'll both be moved to the chatting screen.
-![COM](/Screenshots/9_real_chat_1.jpg)
-![COM](/Screenshots/10_real_chat_2.jpg)
+![Chatting](/Screenshots/9_real_chat_1.jpg)
+![Chatting2](/Screenshots/10_real_chat_2.jpg)
 
 pressing **Escape** key close the chat for both screens.
 
 Now let's test the actual game. Press **Escape** in the chat to go back to main menu, then send game invitation by pressing the **F2** key on the keyboard. You should see something like this:
-![COM](/Screenshots/11_game_inv_1.jpg)
+![Game Invitation](/Screenshots/11_game_inv_1.jpg)
 On the host screen
 ```
 You sent a GAME invitation
@@ -116,7 +116,7 @@ On the other screen
 ```
 
 After accepting this time a new screen appear. The level select:
-![COM](/Screenshots/12_game_inv_2.jpg)
+![Game Invitation2](/Screenshots/12_game_inv_2.jpg)
 On the host screen
 ```
 Select Map [1,2,3]: 
@@ -128,10 +128,10 @@ On the other screen
 
 After successfully loading the map, you can test the snake movement on both the maps but make sure the screen is selected.
 Arrow key to move. Collect the blue fruit and avoid the obstacles
-![COM](/Screenshots/13_game_1.jpg)
+![Gameplay](/Screenshots/13_game_1.jpg)
 
 During gameplay, the snake who eats himself or hit an obstacle losses. The maximum score is 10 who reach it is a winner.
-![COM](/Screenshots/14_game_2.jpg)
+![Gameplay2](/Screenshots/14_game_2.jpg)
 There is a very rare case where the two snakes head hit each other. This is considered draw and the difference is score doesn’t matter.
 
 Pressing **Escape** key returns you to the main menu.
@@ -139,7 +139,7 @@ Pressing **Escape** key returns you to the main menu.
 Now let's try the level design.
 
 Press **F3** on one of the screens.
-![COM](/Screenshots/15_lvl_design.jpg)
+![Level Design](/Screenshots/15_lvl_design.jpg)
 
 The controls are simple, **Arrow** keys to move around **P** key once to continuous draw obstacles, **P** key again to disable the obstacle, **D** key with the cursor over the obstacle to delete it, **S** key to save the map and finally **L** key to load a saved map.
 
