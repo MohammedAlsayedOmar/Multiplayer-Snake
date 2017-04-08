@@ -11,9 +11,11 @@ A Snake game made in assembly on 8086 using serial port to communicate and send 
 ### Installing
 
 Download MASM/TASM and make sure they are located at somewhere accessible. I have placed mine in "C:\Tools".
+
 ![Tools](/Screenshots/tools.JPG)
 
 After downloading and installing [Virtual Serial Port](https://www.eltima.com/products/vspdxp/), from its menu click on "Add pair" button and you must have both "COM1" and "COM2" added.
+
 ![Virtual Serial Port](/Screenshots/1_serial_port.JPG)
 
 After installing [DOS Box](https://www.dosbox.com/), go to it's file location and find "dosbox-X.XX.conf" where X represent the version. Mine is 0.74. If you couldn't find it, double click on "DOSBox X.XX Options.bat". If you still can't find anything, try opening your start menu then type dosbox and choose "DOSBox X.XX Options"
@@ -38,6 +40,7 @@ mount c c:\tools
 c:
 ```
 where "C:\tools" is the place that contains "MASM.exe" and "C" is the DOSBox drive you want to mount on.
+
 ![Mount](/Screenshots/2_mount.jpg)
 
 To make sure that everything is working properly, look at the second window that popped out and make sure that there is a line saying:
@@ -45,6 +48,7 @@ To make sure that everything is working properly, look at the second window that
 Serial1: Opening com1
 ```
 ![COM](/Screenshots/5_check.JPG)
+
 This picture says 2 but make sure yours say 1 for now.
 
 Good! The following process now will be done once.
@@ -56,7 +60,9 @@ Inside DOSBox, enter the following commands
 masm main.asm;
 link main.asm;
 ```
+
 ![MASM](/Screenshots/3_masm.jpg)
+
 ![LINK](/Screenshots/4_link.JPG)
 
 Well done. Everything is now setup to start.
@@ -80,15 +86,19 @@ Serial1: Opening com2
 ```
 
 Perfect. Now type your name. The main screen won't appear unless both users press the **Enter** key after they enter their name.
+
 ![Run](/Screenshots/6_run.JPG)
 
 Hopefully now you can see this:
+
 ![Main Menu](/Screenshots/7_main_menu.JPG)
 
 As it states, each function key is associated with something. Let's try them all.
 
 Press "F1" on one of the screens and hopefully you see this message:
+
 ![Chat Invitation](/Screenshots/8_chat_inv.JPG)
+
 On the host screen
 ```
 You sent a CHAT invitation
@@ -99,13 +109,17 @@ On the other screen
 ```
 
 After accepting, you'll both be moved to the chatting screen.
+
 ![Chatting](/Screenshots/9_real_chat_1.JPG)
+
 ![Chatting2](/Screenshots/10_real_chat_2.JPG)
 
 pressing **Escape** key close the chat for both screens.
 
 Now let's test the actual game. Press **Escape** in the chat to go back to main menu, then send game invitation by pressing the **F2** key on the keyboard. You should see something like this:
+
 ![Game Invitation](/Screenshots/11_game_inv_1.JPG)
+
 On the host screen
 ```
 You sent a GAME invitation
@@ -116,7 +130,9 @@ On the other screen
 ```
 
 After accepting this time a new screen appear. The level select:
+
 ![Game Invitation2](/Screenshots/12_game_inv_2.JPG)
+
 On the host screen
 ```
 Select Map [1,2,3]: 
@@ -128,10 +144,13 @@ On the other screen
 
 After successfully loading the map, you can test the snake movement on both the maps but make sure the screen is selected.
 Arrow key to move. Collect the blue fruit and avoid the obstacles
+
 ![Gameplay](/Screenshots/13_game_1.JPG)
 
 During gameplay, the snake who eats himself or hit an obstacle losses. The maximum score is 10 who reach it is a winner.
+
 ![Gameplay2](/Screenshots/14_game_2.JPG)
+
 There is a very rare case where the two snakes head hit each other. This is considered draw and the difference is score doesn’t matter.
 
 Pressing **Escape** key returns you to the main menu.
@@ -139,6 +158,7 @@ Pressing **Escape** key returns you to the main menu.
 Now let's try the level design.
 
 Press **F3** on one of the screens.
+
 ![Level Design](/Screenshots/15_lvl_design.JPG)
 
 The controls are simple, **Arrow** keys to move around **P** key once to continuous draw obstacles, **P** key again to disable the obstacle, **D** key with the cursor over the obstacle to delete it, **S** key to save the map and finally **L** key to load a saved map.
