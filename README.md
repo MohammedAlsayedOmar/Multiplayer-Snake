@@ -53,12 +53,12 @@ This picture says 2 but make sure yours say 1 for now.
 
 Good! The following process now will be done once.
 
-First of all add all of the following files to the "Tools" folder or whatever folder that contain the "MASM" and "LINK":_ "main.asm", "chatf.asm", "host.asm", "map.asm", "snake1.asm"_. And from "MAPS" folder, add _"1.txt", "2.txt", "3.txt"_ to the same location mentioned above.
+First of all, add all of the following files to the "Tools" folder or whatever folder that contain the "MASM" and "LINK":_ "main.asm", "chatf.asm", "host.asm", "map.asm", "snake1.asm"_. And from "MAPS" folder, add _"1.txt", "2.txt", "3.txt"_ to the same location mentioned above.
 
 Inside DOSBox, enter the following commands
 ```
 masm main.asm;
-link main.asm;
+link main.obj;
 ```
 
 ![MASM](/Screenshots/3_masm.jpg)
