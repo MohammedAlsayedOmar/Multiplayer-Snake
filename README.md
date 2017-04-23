@@ -163,7 +163,7 @@ Press **F3** on one of the screens.
 
 The controls are simple, **Arrow** keys to move around **P** key once to continuous draw obstacles, **P** key again to disable the obstacle, **D** key with the cursor over the obstacle to delete it, **S** key to save the map and finally **L** key to load a saved map.
 
-You can play on a newly created map.
+You can play on a newly created maps.
 
 
 ## Developers
